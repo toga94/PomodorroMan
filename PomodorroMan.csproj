@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Assets\tomato.ico</ApplicationIcon>
+    <AssemblyTitle>PomodorroMan</AssemblyTitle>
+    <AssemblyDescription>A modern Pomodoro timer with advanced notification system, visual progress tracking, intelligent work efficiency monitoring, task management, ambient sounds, dark mode, gamification, enhanced productivity features, improved stability, and critical bug fixes</AssemblyDescription>
+    <AssemblyVersion>1.8.2.0</AssemblyVersion>
+    <FileVersion>1.8.2.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Assets\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+
+</Project>
